@@ -1,0 +1,29 @@
+{
+  "name": "ibm/addressform",
+  "description": "Add a text field in shipping address (required field) and save the field in the database",
+  "require": {
+    "php": "~8.1.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Saravanan Kandasamy",
+      "email": "saravanansrkv@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ibm\\AddressForm\\": ""
+    }
+  }
+}
